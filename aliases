@@ -4,7 +4,6 @@ if [ ! -z $VLESS ]; then
   alias less=$VLESS
 fi
 
-alias .="open ."
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
