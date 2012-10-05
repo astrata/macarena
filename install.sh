@@ -14,7 +14,7 @@ hash git >/dev/null && /usr/bin/env git clone https://github.com/Astrata/macaren
 }
 
 #cambiamos el .zshrc
-echo "source ./macarena/zsh" >> ~/.zshrc
+echo "source ~/.macarena/zsh" >> ~/.zshrc
 
 #vim
 if [ -f ~/.vimrc ] || [ -h ~/.vimrc ]
