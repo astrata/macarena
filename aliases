@@ -3,3 +3,17 @@ VLESS=$(find /usr/share/vim -name 'less.sh')
 if [ ! -z $VLESS ]; then
   alias less=$VLESS
 fi
+
+alias .="open ."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias v="vim"
+alias ":q"="exit"
+alias ec="emacsclient"
+alias ls="ls -G"
+alias ld="ls -d */"
+alias ll="ls -l"
+alias empty="> "
+alias ilisten="sudo lsof | grep LISTEN"
+alias pyws="python -m SimpleHTTPServer 5050"

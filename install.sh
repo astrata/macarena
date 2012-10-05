@@ -14,7 +14,8 @@ hash git >/dev/null && /usr/bin/env git clone https://github.com/Astrata/macaren
 }
 
 #cambiamos el .zshrc
-echo "cdpath=(~ ~/projects)" #hay que configurar esto >> ~/.zshrc
+echo "cdpath=(~ ~/projects)" >> ~/.zshrc #hay que configurar esto 
+cat ./macarena/aliases >> .zshrc
 
 #vim
 if [ -f ~/.vimrc ] || [ -h ~/.vimrc ]
