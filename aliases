@@ -16,3 +16,17 @@ alias ll="ls -l"
 alias empty="> "
 alias ilisten="sudo lsof | grep LISTEN"
 alias pyws="python -m SimpleHTTPServer 5050"
+
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gca='git commit -a'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gp='git pull'
+alias push='git push'
+alias gr='git rebase '
+alias gm='git merge '
